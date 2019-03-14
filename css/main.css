@@ -13,28 +13,30 @@ html {
 
 /*Page Style*/
 body {
-  font-size: 1.5em;
   font-family: "cursive", Brush Script MT;
-  color: #fff /*white*/
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 5%;
+  min-width: 100%;
+  margin: 0px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Flex Box*/
 .container {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
   background: #bf223a; /*magenta*/
-  margin-left: 10px;
-  margin-right: 10px;
   border-radius: 4px;
+  min-width: 100%;
+  color: #fff; /*white*/
   box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-}
-
-/*Flex Box*/
-.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -49,8 +51,42 @@ body {
   list-style-type: none;
   text-decoration: none;
   flex-grow: 1;
+  text-align: center;
+  font-size: 2em;
 }
 
+.content {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+  text-align: center;
+  color: #bf223a;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+.items {
+  font-size: 4em;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.item-7 {
+  padding-right: 30%;
+  padding-top: 10%;
+  transform: rotate(-20deg);
+}
+
+.item-8 {
+  padding-left: 30%;
+  padding-top: 20%;
+  transform: rotate(-20deg);
+}
 /* Not sure if I want to use this yet or not
 .item-0 {
   margin-right: auto;
@@ -66,6 +102,39 @@ body {
   .container {
     display: inline-flex;
     flex-direction: column;
+    background-color: rgba(255,255,255,.5);
+    background-blend-mode: lighten;
+    box-shadow: 0 1.5px 1.5px 0 #bf223a;;
+  }
+
+  .content {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .item {
+    font-size: 1.5em;
+  }
+
+  .items {
+    font-size: 2.5em;
+  }
+
+  .item-7 {
+    transform: rotate(0deg);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .item-8 {
+    transform: rotate(0deg);
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
 
