@@ -5,7 +5,7 @@
 
 /*Background Picture Properties*/
 html {
-  background: url(/photos/bouquet.jpg) no-repeat top center fixed;
+  background: url(/photos/rings.jpg) no-repeat top center fixed;
   background-size: cover;
   background-color: rgba(255,255,255,.5);
   background-blend-mode: lighten;
@@ -22,20 +22,13 @@ body {
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
 
-.item > a {
-  color: white;
-}
-
-.items > a {
-  color: #bf223a;
-}
-
-.story {
+.page {
   text-align: center;
-  font-size: 28px;
+  padding-top: 5%;
 }
 
 /*Flex Box*/
@@ -44,7 +37,7 @@ a {
   padding-right: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
-  background: #bf223a; /*magenta*/
+  background: #DB7093; /*pink*/
   border-radius: 4px;
   min-width: 100%;
   color: #fff; /*white*/
@@ -58,7 +51,7 @@ a {
   color: inherit;
   padding: 5px;
   margin: 5px;
-  background: #5cae8f; /*succulent green*/
+  background: #C5B358; /*gold*/
   border-radius: 3px;
   list-style-type: none;
   text-decoration: none;
@@ -106,23 +99,6 @@ a {
 */
 /*End flex box*/
 
-@media only screen and (max-width: 950px) {
-  body {
-
-  }
-
-  .story {
-    font-size: 24px;
-  }
-
-  .item {
-      font-size: 1.75em;
-    }
-
-    .items {
-      font-size: 3.5em;
-  }
-}
 @media only screen and (max-width: 600px) {
   body {
 
@@ -164,10 +140,6 @@ a {
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-
-  .story {
-    font-size: 20px;
   }
 }
 
