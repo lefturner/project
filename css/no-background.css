@@ -5,9 +5,7 @@
 
 /*Background Picture Properties*/
 html {
-  background: url(/photos/bouquet.jpg) no-repeat top center fixed;
-  background-size: cover;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(191, 34, 58, 0.4);
   background-blend-mode: lighten;
 }
 
@@ -40,7 +38,7 @@ form {
   color: white;
 }
 
-.items>p>a {
+.items > a {
   color: #bf223a;
 }
 
@@ -85,9 +83,9 @@ form {
   padding-bottom: 2px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #bf223a;
   flex-grow: 1;
   text-align: center;
+  color: #bf223a;
   font-weight: bold;
   display: flex;
   justify-content: space-around;

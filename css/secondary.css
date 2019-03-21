@@ -142,25 +142,3 @@ a {
     margin: 0;
   }
 }
-
-/*
-/*Footer
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.footer-nav {
-  float: left;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.footer-nav li {
-  float: left;
-}
-
-.copyright: {
-  clear: both; /* Clears 'both' left and right
-}*/
