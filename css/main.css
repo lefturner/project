@@ -5,7 +5,7 @@
 
 /*Background Picture Properties*/
 html {
-  background: url(/photos/bouquet.jpg) no-repeat top center fixed;
+  background: url(photos/bouquet.jpg) no-repeat top center fixed;
   background-size: cover;
   background-color: rgba(255,255,255,.5);
   background-blend-mode: lighten;
