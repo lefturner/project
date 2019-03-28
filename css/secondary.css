@@ -92,13 +92,11 @@ a {
   padding-top: 20%;
   transform: rotate(-20deg);
 }
-/* Not sure if I want to use this yet or not
-.item-0 {
-  margin-right: auto;
-}
-*/
+
 /*End flex box*/
 
+
+/*media query*/
 @media only screen and (max-width: 600px) {
   body {
 

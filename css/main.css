@@ -36,10 +36,12 @@ form {
   border: solid #5cae8f 4px;
 }
 
+/*White Links in the main-nav*/
 .item > a {
   color: white;
 }
 
+/*Magenta Links in the page*/
 .items>p>a {
   color: #bf223a;
 }
@@ -110,13 +112,10 @@ form {
   padding-top: 20%;
   transform: rotate(-20deg);
 }
-/* Not sure if I want to use this yet or not
-.item-0 {
-  margin-right: auto;
-}
-*/
+
 /*End flex box*/
 
+/*Media Query for responsive design for medium screens*/
 @media only screen and (max-width: 950px) {
   body {
 
@@ -134,6 +133,8 @@ form {
       font-size: 3.5em;
   }
 }
+
+/*Media Query for responsive design for small screens*/
 @media only screen and (max-width: 600px) {
   body {
 
